@@ -1,0 +1,96 @@
+
+body {
+	/*background: url(../img/chopsky.jpg);*/
+	background-size: 80%;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.circle {
+	border-radius: 50%;
+	position: absolute;
+	background: url(../img/chopsky.jpg);
+	background-size: 960%;
+	width: 120px;
+	height: 120px;
+}
+
+
+/* rows
+--------------------------------*/
+.rowone {
+	top: 10px;
+	background-position-y: 2%;
+}
+
+.rowtwo {
+	background-position-y: 25%;
+	top: 135px;
+}
+
+.rowthree {
+	background-position-y: 48%;
+	top: 260px;
+}
+
+.rowfour {
+	background-position-y: 71%;
+	top: 385px;
+}
+
+.rowfive {
+	background-position-y: 94%;
+	top: 510px;
+}
+
+
+
+/* columns
+--------------------------------*/
+.one {
+	background-position-x: 1%;
+	left: 10px;
+}
+
+.two {
+	background-position-x: 14%;
+	left: 135px;
+}
+
+.three {
+	background-position-x: 26%;
+	left: 260px;
+}
+
+.four {
+	background-position-x: 38%;
+	left: 385px;
+}
+
+.five {
+	background-position-x: 50%;
+	left: 510px;
+}
+
+.six {
+	background-position-x: 62%;
+	left: 635px;
+}
+
+.seven {
+	background-position-x: 74%;
+	left: 760px;
+}
+
+.eight {
+	background-position-x: 86%;
+	left: 885px;
+}
+
+.nine {
+	background-position-x: 98%;
+	left: 1010px;
+}
+
+
+
