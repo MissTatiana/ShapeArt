@@ -1,9 +1,15 @@
 
 body {
 	/*background: url(../img/chopsky.jpg);*/
-	background-size: 80%;
+	/*background-size: 80%;
 	background-repeat: no-repeat;
-	background-position: top left;
+	background-position: top left;*/
+	/*width: 100%;*/
+}
+
+.circleContainer {
+	/*margin-left: 50%;*/
+	padding-left: 50%;
 }
 
 .circle {
@@ -29,17 +35,17 @@ body {
 }
 
 .rowthree {
-	background-position-y: 48%;
+	background-position-y: 49%;
 	top: 260px;
 }
 
 .rowfour {
-	background-position-y: 71%;
+	background-position-y: 73%;
 	top: 385px;
 }
 
 .rowfive {
-	background-position-y: 94%;
+	background-position-y: 97%;
 	top: 510px;
 }
 
@@ -73,7 +79,7 @@ body {
 }
 
 .six {
-	background-position-x: 62%;
+	background-position-x: 61%;
 	left: 635px;
 }
 
@@ -92,5 +98,90 @@ body {
 	left: 1010px;
 }
 
+
+
+/* SMALLER CIRCLES 
+------------------------------------------*/
+.smallCircle {
+	border-radius: 50%;
+	position: absolute;
+	background: url(../img/chopsky.jpg);
+	background-size: 2113%;
+	width: 50px;
+	height: 50px;
+}
+
+
+.smallRowzero {
+	background-position-y: -3%;
+	top: -20px;
+}
+
+.smallRowone {
+	background-position-y: 18%;
+	top: 106px;
+}
+
+.smallRowtwo {
+	background-position-y: 38%;
+	top: 232px;
+}
+
+.smallRowthree {
+	background-position-y: 59%;
+	top: 358px;
+}
+
+.smallRowfour {
+	background-position-y: 81%;
+	top: 484px;
+}
+
+.smallRowfive {
+	background-position-y: 104%;
+	top: 620px;
+}
+
+
+
+.smallOne {
+	left: 108px;
+	background-position-x: 10%; 
+}
+
+.smallTwo {
+	left: 233px;
+	background-position-x: 21%; 
+}
+
+.smallThree {
+	left: 358px;
+	background-position-x: 31%; 
+}
+
+.smallFour {
+	left: 483px;
+	background-position-x: 44%; 
+}
+
+.smallFive {
+	left: 608px;
+	background-position-x: 54%; 
+}
+
+.smallSix {
+	left: 733px;
+	background-position-x: 67%; 
+}
+
+.smallSeven {
+	left: 858px;
+	background-position-x: 78%; 
+}
+
+.smallEight {
+	left: 983px;
+	background-position-x: 90%; 
+}
 
 
